@@ -1,5 +1,12 @@
+import Link from 'next/Link'
+
 function Home(){
-    return <div>Home Teste DNS</div>
+    return (<div>
+        <h1>Home</h1>
+        <Link href="/sobre">
+            <a>Acessar página Sobre</a>
+        </Link>        
+    </div>)
 }
 
 export default Home
